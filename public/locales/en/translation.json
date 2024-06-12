@@ -1,0 +1,13 @@
+{
+    "contactForm":{
+            "contact_us_message": "You're welcome to contact us with any inquiry. For questions regarding your order, please include your order number.",
+            "name": "Name",
+            "email": "Email",
+            "phone_number": "Phone number",
+            "message": "Message",
+            "send": "Send",
+            "paintings": "PAINTINGS",
+            "bio": "BIO",
+            "contact_me": "CONTACT ME"
+    }
+}

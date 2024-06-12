@@ -1,0 +1,47 @@
+{
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "compilerOptions": {
+    "module": "ES2022",
+    "target": "ES2022",
+    "moduleResolution": "Node",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "strict": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "baseUrl": "src/",
+    "paths": {
+      "~app": ["./app"],
+      "~app/*": ["./app/*"],
+
+      "~processes": ["./processes"],
+      "~processes/*": ["./processes/*"],
+
+      "~pages": ["./pages"],
+      "~pages/*": ["./pages/*"],
+
+      "~widgets": ["./widgets"],
+      "~widgets/*": ["./widgets/*"],
+
+      "~features": ["./features"],
+      "~features/*": ["./features/*"],
+
+      "~entities": ["./entities"],
+      "~entities/*": ["./entities/*"],
+
+      "~shared": ["./shared"],
+      "~shared/*": ["./shared/*"]
+    }
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+}
